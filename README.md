@@ -1,5 +1,5 @@
 # README
-This is a Rails web app used for a fictional Bass Shop called BB's Bass Shop.
+This is a Rails + React web app (with Tailwind CSS) for a fictional Bass Shop called BB's Bass Shop.
 
 Things you may need:
 
@@ -33,6 +33,16 @@ I personally used postgres with a username and password. But feel free to change
 Migrate the database:
 ```
 $ rails db:migrate
+```
+
+Run the following command to install active storage
+```
+rails active_storage:install
+```
+
+Generate the routes
+```
+$ rails routes
 ```
 
 Install Tailwind CSS
